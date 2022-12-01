@@ -18,7 +18,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended: false}));
 app.use(bodyParser.json());
 app.use(cors({
-    origin: ["http://localhost:5173"],
+    origin: ["http://localhost:5173", "https://inventory-management-app-backend.onrender.com"],
     credentials: true
 }))
 
